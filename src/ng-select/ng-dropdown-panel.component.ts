@@ -346,7 +346,7 @@ export class NgDropdownPanelComponent implements OnInit, OnChanges, OnDestroy, A
         parent.appendChild(this._dropdown);
     }
 
-    private _updateAppendedDropdownPosition() {
+    _updateAppendedDropdownPosition() {
         const parent = document.querySelector(this.appendTo) || document.body;
         this._dropdown.style.display = 'none';
         const selectRect: ClientRect = this._select.getBoundingClientRect();
