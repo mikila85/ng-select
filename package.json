@@ -1,5 +1,6 @@
 {
   "repository": "ng-select/ng-select",
+  "version": "2.13.1",
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
